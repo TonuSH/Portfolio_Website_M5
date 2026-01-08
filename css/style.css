@@ -38,6 +38,11 @@
 .text-center{
     text-align: center;
 }
+.container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /*main style */
 .logo h2{
     font-size: 45px;
@@ -50,15 +55,12 @@ header{
     background-color: #FFF8F3;
     padding-top: 50px;
     background: url(../images/developer.png),url(../images/header_bg.png),#FFF8F3;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
     background-repeat: no-repeat;
 }
 nav{
     display: flex;
     justify-content: space-between;
-    width:71%;
-    max-width: 1140px;
-    margin: 0px auto;
     align-items: center;
 }
 nav .menu{
@@ -74,7 +76,7 @@ nav .menu a{
 
 /* banner section */
 #banner{
-    margin: 47px 38px 0px 190px;
+    margin: 47px 38px 0px 230px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -112,9 +114,6 @@ nav .menu a{
 }
 #about .about-container{
     background-color: #FFF8F3;
-    width:71%;
-    max-width: 1140px;
-    margin:0 auto;
     text-align: center;
     padding:131px 156px;
 }
@@ -130,11 +129,7 @@ nav .menu a{
 #about .about-container .about-info .info-card h4{
         font-size: 20px;
 }
-#skills .skills-container{
-    width:71%;
-    max-width: 1140px;
-    margin:0 auto;
-}
+
 #skills .skills-container .skill-box{
     display: flex;
     gap:24px;
@@ -162,9 +157,6 @@ nav .menu a{
 }
 #resume .resume-container{
     padding-top: 113px;
-    width:71%;
-    max-width: 1140px;
-    margin:0 auto;
     display: flex;
     gap:24px;
     padding-bottom: 50px;
@@ -209,10 +201,10 @@ footer{
     padding:130px 0;
 }
 footer .footer-container{
-    width:71%;
-    max-width:1140px;
-    margin: 0 auto;
     display: flex;
+    width:71%;
+    max-width: 1140px;
+    margin: 0 auto;
     gap: 117px;
 }
 footer .footer-container .social{
